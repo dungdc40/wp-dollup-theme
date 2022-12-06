@@ -1,0 +1,14 @@
+{
+    "name": "du/dollup",
+    "authors": [
+        {
+            "name": "Dzung Do",
+            "email": "dzung.t@pinnacle-publishing.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Du\\": "inc/"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+<p>Hello there, here is a copy of pre-prop contract you have just signed from <?= home_url();?></p>

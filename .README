@@ -1,0 +1,10 @@
+This repo is Wordpress Theme for Tradefundrr marketing site, it also contain React app for marketing site pages in /home
+folder.
+
+To setup development environment only, follow below steps:
+1. cd ./home
+1. Duplicate file .env.example, rename into .env, change variables inside .env file per your need
+2. Yarn install
+3. Yan start
+4. Project main page is: localhost:3000
+

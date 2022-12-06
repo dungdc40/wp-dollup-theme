@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/*
+Theme Name: DollUp
+Author: DollUp
+Requires at least: 4.9.6
+Requires PHP: 5.2.4
+Version: 0.1.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+html {
+  font-size: 4.27vw;
+  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  background-color: white;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Common styles */
+body .container-box {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0 auto;
+}
+
+.flex-column-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.mobile-content {
+  display: block;
+}
+
+.desktop-content {
+  display: none;
+}
+
+/* For content in normal wordpress pages */
+.display-none {
+  display: none;
+}
+
+.content-area {
+  padding: 1rem 1rem;
+}
+
+.header-logo, .header-nav, .header-logo-mobile {
+  z-index: 1;
+}
+
+.section-under .entry-content {
+  background: #F6F6F6;
+}
+
+.started-comps .lock:hover .icon-unlock,
+.started-comps .lock .icon-lock {
+  display: none;
+}
+.started-comps .lock:hover .icon-lock {
+  display: inline;
+}
+
+.started-comps .lock:hover .url-text {
+  color:rgb(29 78 216);
+}
+
+@media only screen and (min-width: 1024px) {
+  html {
+    font-size: 1.04vw;
+  }
+
+  .mobile-content {
+    display: none;
+  }
+
+  .desktop-content {
+    display: inline-flex;
+  }
+
+  .align-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .content-area {
+    padding: 1rem 12.5vw;
+  }
+
+  body .container-box {
+    padding-left: 12.5vw;
+    padding-right: 12.5vw;
+  }
+}
